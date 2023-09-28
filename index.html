@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>Real-Time Application</title>
+    <script src="https://cdn.socket.io/4.6.0/socket.io.min.js" integrity="sha384-c79GN5VsunZvi+Q/WObgk2in0CbZsHnjEqvFxC5DxHn9lTfNce2WW6h2pH6u/kF+" crossorigin="anonymous"></script>
+</head>
+<body>
+<h1>Real-Time Application</h1></br>
+<div id="chat"></div>
+<script>
+    const socket = io();
+    socket.on("connect", () => {
+    });
+    function addToChat(message) {
+        const chat = document.getElementById('chat');
+        chat.innerHTML += `${message}</br>`;
+    }
+    socket.on('new_message', addToChat);
+</script>
+</body>
+</html>

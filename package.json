@@ -1,0 +1,26 @@
+{
+  "name": "RabbitMQ_Express_NodeJS",
+  "version": "1.0.0",
+  "description": "A chat application using RabbitMQ, Express and NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HoangTienHoa/RabbitMQ_Express_NodeJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HoangTienHoa/RabbitMQ_Express_NodeJS/issues"
+  },
+  "homepage": "https://github.com/HoangTienHoa/RabbitMQ_Express_NodeJS#readme",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "express": "^4.18.2",
+    "http": "0.0.1-security",
+    "socket.io": "^4.7.2"
+  }
+}
