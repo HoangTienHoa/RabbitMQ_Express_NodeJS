@@ -1,5 +1,5 @@
 # RabbitMQ_Express_NodeJS
-A chat application using RabbitMQ, Express and NodeJS
+A demo for use RabbitMQ, Express in Nodejs. Example for all Exchange type (Direct, Fanout, Topic, Headers)
 
 # Run
     npm i
